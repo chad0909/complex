@@ -1,7 +1,7 @@
 '''
-name1: maintainer
-name2: addition,subtraction
-name3: multiplication
+최동근: maintainer
+이기욱: addition,subtraction
+이혜미: multiplication
 
 '''
 class Complex:
