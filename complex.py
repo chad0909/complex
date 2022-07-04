@@ -10,8 +10,9 @@ class Complex:
         self.im = im
     def __str__(self):
         return str(self.re) + "+" + str(self.im) + "i"
-
+    def addition (re, im)
+        return re + im
 
 c1 = Complex(1,2)
 print(c1)
-
+print(Complex.addition(1,2))
