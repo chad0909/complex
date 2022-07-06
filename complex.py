@@ -29,13 +29,18 @@ class Complex:
         c.im = self.im - c1.im
         return c
 
+
     def __sub__(self,c): # self - c
         return self.subtract(c)
+
+    def __add__(self, c): # self + c
+        return self.add(c) # 상단 함수 호출
+
 
 c1 = Complex(1,2)
 print(c1)
 
 c2 = Complex(2,3)
-print(c1.add(c2))
+print(c1 + c2)
 print(c2-c1) # subtraction
 print(c1.multiply(c2))
